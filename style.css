@@ -1,7 +1,10 @@
-body{ 
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
-    
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 10px;
 }
 h1{
     font-size: 50px;
@@ -11,65 +14,99 @@ h2{
 }
 p{
     color: dimgray;
+    font-size: large;
 }
-.orange-highlight{
+.name-highlight{
     color: orange;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-bottom: 3%;
+    padding-left: 1%
 }
 .half-width img{
-    width: 100%;
-}
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
+    width: 80%;
+    
 }
 .link-button{
     text-decoration: none;
-   background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-image: linear-gradient(45deg, pink, plum);
     padding: 10px 20px;
-    border-radius: 5%;
-    color: white;
-    font-size: bold;
-}
-.dream-area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.single-experience{
-    box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
-    background-color: white;
+    color: white;
+    font-weight: bold;
 }
-.experience-area{
-   background-image: url("images/exp-bg.png");
-   background-repeat: no-repeat;
-   background-position: left;
+.row{
+    display: flex;
+    padding: 2%;
+    margin-left: 2%;
 }
-#full-stack{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
+.header1{
+    color: blue;
+    font-weight: 600;
 }
-#baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+.header2{
+    color: brown;
+    font-weight: 700;
 }
-footer p{
+.name1{
+    color: cyan;
+    font-weight: 500;
+}
+.name2{
+    color: rgb(243, 140, 221);
+    font-weight: 500;
+}
+.name3{
+    color: rgb(206, 65, 65);
+    font-weight: 500;
+}
+.blog{
     text-align: center;
-    font font-size: 12px;
+}
+.blog-area{
+    margin-left: 2%;
 }
 
-        
-    
+.lastet{
+    text-align: center;
+}
+.new{
+    color: green;
+}
+.work{
+    color: red;
+}
+.project{
+    width: 31%;
+    float: left;
+    margin-right: 10px;
+    padding: 5px; 
+    }
+   .image{
+      width: 230px;
+      height: 200px;
+   }
+   .text{
+       display: flex;
+       align-items: center;
+       color: white;
+       background-image: url('images/bg1.png');
+       width: 100%;
+       height: 200px;
+   }
+    .button{
+        margin-left: auto;
+        margin-right: 10%;
+    }
+    .inquiry{
+        margin-left: 10%;
+    }
+ .footer-area{
+     text-align: center;
+ }
+ .footer{
+    color: gray;
+ }
+
